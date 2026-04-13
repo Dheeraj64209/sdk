@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# Platform-specific Flutter build outputs
+apps/vobiz_demo/android/app/debug/
+apps/vobiz_demo/android/app/profile/
+apps/vobiz_demo/android/app/release/
+apps/vobiz_demo/ios/Flutter/.last_build_id
+
+# Env / secrets
+.env
+*.env
+!.env.example
+
+# Local nested-repo backup metadata
+**/.git.backup/
+
+# Stray local scratch file
+=3.3.0
